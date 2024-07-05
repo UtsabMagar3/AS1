@@ -1,30 +1,31 @@
 body{
-   background-color: #000000e6;
-   
+  
+    background-color: #07121b;
+    
 }
 
 nav{
     display: flex;
-    padding-top: 25px;
-
+    align-items: center;
+    
 
 }
+
 .logo{
     width: 45%;
     font-size: 40px;
     padding-left: 5%;
     color: white;
-    
-    
-    
-}
+    padding-top: 25px;
+} 
+
 .logo a{
     color: white;
     text-decoration: none;
    
 }
 b{
-    color: orange;
+    color: skyblue;
 }
 
 .menu a{
@@ -32,11 +33,15 @@ b{
     text-decoration: none;
     color: white;
     font-size: 15px;
+    font-weight: 400;
     font-family: arial;
-
-
-
+    background: transparent;
+    transition: .3s;
 }
+.menu a:hover{
+    color: skyblue;
+}
+
 .line{
 
     width: 80%;
@@ -48,18 +53,93 @@ b{
     color: white;
     font-family: arial;
     padding-left: 5%;
-    padding-top: 10%;
+    padding-top: 7%;
+    max-width: 600px;
 }
 
-h1{
-    color:orange;
-    font-size: 40px;
+.intro h1{
+    color: orange;
+    font-size: 50px;
+    margin-top: -8px;
 }
+
 .intro p{
-    color: grey;
+    margin-top: -20px;
+    font-size: 15px;
+}
+.button{
+    display:grid;
+    width: 300px;
+    padding-left: 5%;
+    column-gap: 30px;
+    grid-template-columns: auto auto;
+    padding-top: 25px;
+
 }
 
+.button2{
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    font-family: arial;
+    width: 100px;
+    transition: width 1s;
 
+}
+.button2:hover{
+    width: 120px;
+   
+
+}
+.button1{
+    border: 1px solid black;
+    background-color: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    font-family: arial;
+    width: 100px;
+    transition: width 1s;
+    
+}
+.button1:hover{
+    width: 120px;
+
+    
+}
+.button2 a{
+    color: skyblue;
+    text-decoration: none;
+} 
+.button1 a{
+    color: black;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    padding-left: 2%;
+    padding-top: 3%;
+    width: 300px;
+    justify-content: space-between;
+   
+   
+
+
+}
+.icons a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #2b77c1;
+    transition: .3s;
+
+}
+.icons a:hover{
+    color: orange;
+    font-size: 25px;
+}
+
+/* project.html*/
 .project{
     display: grid;
     row-gap: 20px;
@@ -79,46 +159,46 @@ h1{
     background-color: #8080800f;
     border: 1px solid #ffff0024;
     width: 350px;
-    
+    font-family: arial;
+
+
 }
 
-.button{
-    display:grid;
-    max-width: 300px;
-    padding-left: 6%;
-    column-gap: 30px;
-    grid-template-columns: auto auto;
-   
-}
 
-.button1{
-    border: 1px solid orange;
-    border-radius: 10px;
-    box-shadow: 2px 2px 15px 10px #8080800f;
+
+
+/*contact.html*/
+
+.contact_me{
     text-align: center;
-    padding: 5px;
+    color: white;
     font-family: arial;
-    font-weight: 600;
-    color: orange;
-    width: 150px;
-    transition: width 1s;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 2%;
+
 }
-.button1:hover{
-    width: 200px;
+.container{
+    display: flex;
 }
-.button2{
-    border: 1px solid black;
-    box-shadow: 2px 2px 15px 10px #8080800f;
-    background-color: orange;
-    border-radius: 10px;
-    text-align: center;
-    padding: 5px;
+.info{
+    color: skyblue;
     font-family: arial;
-    font-weight: 600;
-    color: black;
-    width: 160px;
-    transition: width 1s;
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 18%;
+    padding-top: 4%;
+    width: 300px;
+
 }
-.button2:hover{
-    width: 200px;
+.info h5{
+    padding-top: 20%;
+}
+.form{
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 15%;
+    padding-top: 4%;
 }
