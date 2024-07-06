@@ -4,6 +4,7 @@
     
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
     <header>
@@ -26,13 +27,39 @@
         <div class="container">
         <div class="info">
              Contact information
-             <h5>+977 9766303378</h5>
-             <h5>utsabthamimagar@gmail.com</h5>
+             <div class="detail">
+               <p><i class="fa-solid fa-phone"></i> +977 9766303378</p>
+               <p><i class="fa-solid fa-square-envelope"></i> utsabthamimagar@gmail.com</p>
+               <p><i class="fa-solid fa-location-dot"></i> Mid Baneshor-10, Kathmandu, Nepal</p>
+            </div>
+            <h6>Follow me:</h6>
+            <div class="social_link">
+                <a href="https://www.facebook.com/utsav.t.mgr"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/utsab-thami-magar-78a6b330a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/3peculiar/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/Utsav2061"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
             
         </div>
-        <div class="form">
-            Send me a message
+       
+        <div class="contact_form">
+            <p>Send me a message</p>
+            <form action="https://formsubmit.co/utsabthamimagar@gmail.com" method="POST">
+                <div class="form">
+                    <input type="temt" name="name" required placeholder="Your name">
+                </div>
+                <div class="form">
+                    <input type="email" name="email" required placeholder="Your email">
+                </div>
+                <div class="form">
+                    <textarea name="message" required placeholder="Your message"></textarea>
+                </div>
+                <div>
+                    <button type="submit"> Send message </button>
+                </div>
+            </form>
         </div>
+        
         </div>
 
 
